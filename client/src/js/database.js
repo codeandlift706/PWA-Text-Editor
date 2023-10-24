@@ -12,7 +12,7 @@ const initdb = async () =>
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// TODO: Add logic to a method that accepts some content and adds it to the database. Done
 export const putDb = async (content) => {
   console.log('PUT to the database');
   const textDb = await openDB('texts', 1);
